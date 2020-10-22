@@ -1,0 +1,30 @@
+.modal-width {
+    max-width: 40% !important;
+    max-height: 80% !important;
+}
+
+.choice-headings {
+    font-weight: bold;
+}
+
+.choice-links {
+    /* unvisited link */
+    color: gray;
+    }
+    
+    /* visited link */
+    a:visited {
+    color: gray;
+    }
+    
+    /* mouse over link */
+    a:hover {
+    color: black !important;
+    }
+    
+    /* selected link */
+    a:active {
+    color: black !important;
+    text-decoration-line: underline !important;
+      
+}
