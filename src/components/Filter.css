@@ -2,14 +2,10 @@
     width: 600px !important;
     height: 603.51px !important;
 
-    position: fixed;
-    z-index: 9999;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(75%, 10%);
     background-color: #fff;
     box-shadow: 0 2px 20px 0 rgba(40,44,63,.15);
+    
+    /* height: 100% !important; */
 }
 
 .modal-header {
@@ -36,6 +32,11 @@ button.close {
     max-width: 600px  !important;
     max-height: 603.5px !important;
     margin: 0 0 0 0px  !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 }
 
