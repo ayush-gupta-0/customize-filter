@@ -4,9 +4,22 @@
 
     background-color: #fff;
     box-shadow: 0 2px 20px 0 rgba(40,44,63,.15);
-    
+    transform: translate(50%, 0);
     /* height: 100% !important; */
 }
+
+/* .modal {
+    position: absolute !important;
+    left: 50% !important;
+    z-index: 1050 !important;
+    display: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    outline: 0 !important;
+    top: 50% !important;
+    transform: translate(25%, 25%) !important;
+} */
 
 .modal-header {
     border: none !important;
@@ -27,17 +40,19 @@ button.close {
     max-width: 490px;
 }
 
-@media (min-width: 576px){
 .modal-dialog {
-    max-width: 600px  !important;
-    max-height: 603.5px !important;
-    margin: 0 0 0 0px  !important;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 600px  !important;
+    max-height: 603.5px !important;
+    margin: 0 0 0 0px  !important;
+    }
 }
 
 .modal-footer {
