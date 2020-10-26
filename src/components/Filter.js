@@ -42,7 +42,7 @@ function Filter() {
             console.log(checkboxes1);
             for (const checkbox of checkboxes1) {
                 if(checkbox.checked===false){
-                    // checkbox.disabled=true;
+                    checkbox.disabled=true;
                     
                 }
             }
